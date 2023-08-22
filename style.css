@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Abril+Fatface&family=Concert+One&family=Gloria+Hallelujah&display=swap');
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'ADLaM Display', cursive;
+}
+
+/* Body Styles */
+body {
+    background-color: #FFF3DA;
+}
+
+/* Title Styles */
+.title {
+    font-family: 'ADLaM Display', cursive;
+    color: #BEADFA;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.068) 2px 2px 2px;
+    padding-top: 50px;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+}
+
+/* Pixel Grid Styles */
+.pxGrid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.grid {
+    width: 700px;
+    height: 650px;
+    border: solid 5px;
+    border-color: #BEADFA;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.411) 0px 0px 5px;
+}
+
+/* Buttons Styles */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    margin-top: 129px;
+    margin-left: 250px;
+    margin-right: 150px;
+    width: 250px;
+    height: 650px;
+    background-color: #BEADFA;
+    box-shadow: rgba(0, 0, 0, 0.411) 0px 0px 5px;
+}
+
+.btn {
+    padding: 13px;
+    width: 200px;
+    color: white;
+    font-size: 15px;
+    background-color: #BEADFA;
+    border: solid white;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #BEADFA;
+}
+
+/* Dropdown Styles */
+.pxButton {
+    position: relative;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 10px;
+}
+
+.pxButton:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.clear {
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
