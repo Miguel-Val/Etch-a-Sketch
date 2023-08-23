@@ -14,10 +14,9 @@ body {
 
 /* Title Styles */
 .title {
-    font-family: 'ADLaM Display', cursive;
-    color: #BEADFA;
     font-size: 32px;
     font-weight: bold;
+    color: #BEADFA;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.068) 2px 2px 2px;
     padding-top: 50px;
@@ -28,19 +27,12 @@ body {
     display: flex;
 }
 
-/* Pixel Grid Styles */
-.pxGrid {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-}
-
+/* Grid Styles */
 .grid {
-    width: 700px;
-    height: 650px;
+    display: flex;
+    margin-top: 100px;
     border: solid 5px;
     border-color: #BEADFA;
-    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.411) 0px 0px 5px;
 }
 
@@ -48,12 +40,10 @@ body {
 .buttons {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     gap: 30px;
-    margin-top: 129px;
-    margin-left: 250px;
-    margin-right: 150px;
+    margin: 129px 150px 0 250px;
     width: 250px;
     height: 650px;
     background-color: #BEADFA;
@@ -63,8 +53,8 @@ body {
 .btn {
     padding: 13px;
     width: 200px;
-    color: white;
     font-size: 15px;
+    color: white;
     background-color: #BEADFA;
     border: solid white;
     border-radius: 20px;
@@ -97,3 +87,14 @@ body {
     margin-top: 200px;
     margin-bottom: 20px;
 }
+
+
+.gridDiv {
+
+    background-color: white;
+    border: solid 1px #00000034;
+    box-sizing: border-box;
+    
+}
+
+
