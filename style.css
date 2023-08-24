@@ -39,6 +39,7 @@ body {
 /* Buttons Styles */
 .buttons {
     display: flex;
+    
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
@@ -81,6 +82,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
 }
 
 .clear {
@@ -90,11 +92,83 @@ body {
 
 
 .gridDiv {
-
+    user-select: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none;
     background-color: white;
     border: solid 1px #00000034;
     box-sizing: border-box;
     
+}
+
+
+.changeMe {
+    
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    background-color: rgba(0, 0, 0, 0.904);
+    border: solid 1px #00000034;
+    box-sizing: border-box;
+    
+}
+.colorsbtn {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+.colorsDropdown {
+    display: none;
+    position: absolute;
+    top: 33.1%; 
+    left: 13.5%;
+    
+   
+}
+.colorsbtn:hover .colorsDropdown {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+
+.firstHalf{
+    display: flex;
+    align-items: center;
+   
+}
+.secondHalf{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.btn2 {
+    
+    width: 83.3px;
+    height: 80px;
+    border: solid 2px #ffffff;
+    box-sizing: border-box;
+}
+.red{
+    background-color: #ffb3ba;
+    
+}
+.blue{
+    background-color: #bae1ff;
+}
+.orange{
+    background-color: #ffdfba;
+}
+.yellow{
+    background-color: #ffffba;
+}
+.purple{
+    background-color: #C3B1E1;
+}
+.green {
+    background-color: #baffc9;
 }
 
 

@@ -9,12 +9,29 @@
     <script src="index.js" async defer></script>
 </head>
 <body>
+    <!-- #C3B1E1 -->
     <div class="title">Etch-a-Sketch</div>
     <div class="container">
         <div class="buttons">
-            <button class="color btn">Color</button>
-            <button class="rainbow btn">Rainbow</button>
-            <button class="preset btn">Preset</button>
+            <div class="colorsbtn">
+                <button class="btn color">Color</button>
+                <div class="colorsDropdown">
+                    <div class="firstHalf">
+                        <div class="btn2 red"></div>
+                        <div class="btn2 orange"></div>
+                        <div class="btn2 yellow"></div>
+                    </div>
+                    <div class="secondHalf">
+                        <div class="btn2 green"></div>
+                        <div class="btn2 blue"></div>
+                        <div class="btn2 purple"></div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <button class="btn rainbow ">Rainbow</button>
+            <button class="btn eraser">Eraser</button>
             <div class="pxButton">
                 <button class="btn sixTeen">16px</button>
                 <div class="dropdown">
@@ -23,7 +40,7 @@
                     <button class="btn sixtyFour">64px</button>
                 </div>
             </div>
-            <button class="clear btn">Clear</button>
+            <button class="btn clear">Clear</button>
         </div>
         <div class="grid">
             <div class="row"></div>
