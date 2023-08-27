@@ -102,16 +102,7 @@ body {
 }
 
 
-.changeMe {
-    
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    background-color: rgba(0, 0, 0, 0.904);
-    border: solid 1px #00000034;
-    box-sizing: border-box;
-    
-}
+
 .colorsbtn {
     display: flex;
     flex-direction: column;
@@ -120,7 +111,7 @@ body {
 .colorsDropdown {
     display: none;
     position: absolute;
-    top: 33.1%; 
+    top: 32%; 
     left: 13.5%;
     
    
@@ -156,10 +147,13 @@ body {
     
 }
 .blue{
+   
     background-color: #bae1ff;
+   
+    
 }
 .orange{
-    background-color: #ffdfba;
+    background-color: #FAC898;
 }
 .yellow{
     background-color: #ffffba;
